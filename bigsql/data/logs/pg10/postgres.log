@@ -1,0 +1,10 @@
+2018-05-05 18:21:58 PDT [18848]: [1-1] user=,db=,app=,client= LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2018-05-05 18:21:58 PDT [18848]: [2-1] user=,db=,app=,client= HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-05-05 18:21:58 PDT [18848]: [3-1] user=,db=,app=,client= LOG:  listening on IPv6 address "::", port 5432
+2018-05-05 18:21:58 PDT [18848]: [4-1] user=,db=,app=,client= LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-05-05 18:21:58 PDT [18848]: [5-1] user=,db=,app=,client= LOG:  redirecting log output to logging collector process
+2018-05-05 18:21:58 PDT [18848]: [6-1] user=,db=,app=,client= HINT:  Future log output will appear in directory "/home/chris/Documents/DevelopmentProjects/Python/flaskrouting/bigsql/data/logs/pg10".
+2018-05-05 18:35:10 PDT [20515]: [1-1] user=,db=,app=,client= FATAL:  lock file "postmaster.pid" already exists
+2018-05-05 18:35:10 PDT [20515]: [2-1] user=,db=,app=,client= HINT:  Is another postmaster (PID 18848) running in data directory "/home/chris/Documents/DevelopmentProjects/Python/flaskrouting/bigsql/data/pg10"?
+2018-05-05 18:35:31 PDT [20562]: [1-1] user=,db=,app=,client= FATAL:  lock file "postmaster.pid" already exists
+2018-05-05 18:35:31 PDT [20562]: [2-1] user=,db=,app=,client= HINT:  Is another postmaster (PID 18848) running in data directory "/home/chris/Documents/DevelopmentProjects/Python/flaskrouting/bigsql/data/pg10"?

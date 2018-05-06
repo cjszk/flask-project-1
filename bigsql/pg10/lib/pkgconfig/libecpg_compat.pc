@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 10.3
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/opt/pgbin-build/pgbin/bin/../20180227_0106/build/pg10-10.3-1-linux64/include
+Libs: -L/opt/pgbin-build/pgbin/bin/../20180227_0106/build/pg10-10.3-1-linux64/lib -lecpg_compat
+Libs.private: -L/opt/pgbin-build/pgbin/bin/../shared/linux_64/lib -lpq -lm
